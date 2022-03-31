@@ -1,6 +1,8 @@
 lockfileVersion: 5.3
 
 specifiers:
+  '@heroicons/react': ^1.0.6
+  '@tailwindcss/forms': ^0.5.0
   autoprefixer: ^10.4.4
   eslint: ^8.2.0
   eslint-config-airbnb: ^19.0.4
@@ -16,6 +18,8 @@ specifiers:
   tailwindcss: ^3.0.23
 
 dependencies:
+  '@heroicons/react': 1.0.6_react@18.0.0
+  '@tailwindcss/forms': 0.5.0_tailwindcss@3.0.23
   eslint-config-airbnb: 19.0.4_50e8813b1655ddd2c520b7ad5afa329d
   eslint-plugin-import: 2.25.4_eslint@8.12.0
   eslint-plugin-jsx-a11y: 6.5.1_eslint@8.12.0
@@ -84,6 +88,14 @@ packages:
     transitivePeerDependencies:
       - supports-color
     dev: true
+
+  /@heroicons/react/1.0.6_react@18.0.0:
+    resolution: {integrity: sha512-JJCXydOFWMDpCP4q13iEplA503MQO3xLoZiKum+955ZCtHINWnx26CUxVxxFQu/uLb4LW3ge15ZpzIkXKkJ8oQ==}
+    peerDependencies:
+      react: '>= 16'
+    dependencies:
+      react: 18.0.0
+    dev: false
 
   /@humanwhocodes/config-array/0.9.5:
     resolution: {integrity: sha512-ObyMyWxZiCu/yTisA7uzx81s40xR2fD5Cg/2Kq7G02ajkNubJf6BopgDTmDyc3U7sXpNKM8cYOw7s7Tyr+DnCw==}
@@ -242,6 +254,15 @@ packages:
   /@rushstack/eslint-patch/1.0.8:
     resolution: {integrity: sha512-ZK5v4bJwgXldAUA8r3q9YKfCwOqoHTK/ZqRjSeRXQrBXWouoPnS4MQtgC4AXGiiBuUu5wxrRgTlv0ktmM4P1Aw==}
     dev: true
+
+  /@tailwindcss/forms/0.5.0_tailwindcss@3.0.23:
+    resolution: {integrity: sha512-KzWugryEBFkmoaYcBE18rs6gthWCFHHO7cAZm2/hv3hwD67AzwP7udSCa22E7R1+CEJL/FfhYsJWrc0b1aeSzw==}
+    peerDependencies:
+      tailwindcss: '>=3.0.0 || >= 3.0.0-alpha.1'
+    dependencies:
+      mini-svg-data-uri: 1.4.4
+      tailwindcss: 3.0.23_autoprefixer@10.4.4
+    dev: false
 
   /@types/json5/0.0.29:
     resolution: {integrity: sha1-7ihweulOEdK4J7y+UnC86n8+ce4=}
@@ -1435,6 +1456,11 @@ packages:
       braces: 3.0.2
       picomatch: 2.3.1
     dev: true
+
+  /mini-svg-data-uri/1.4.4:
+    resolution: {integrity: sha512-r9deDe9p5FJUPZAk3A59wGH7Ii9YrjjWw0jmw/liSbHl2CHiyXj6FcDXDu2K3TjVAXqiJdaw3xxwlZZr9E6nHg==}
+    hasBin: true
+    dev: false
 
   /minimatch/3.1.2:
     resolution: {integrity: sha512-J7p63hRiAjw1NDEww1W7i37+ByIrOWO5XQQAzZ3VOcL0PNybwpfmV/N05zFAzwQ9USyEcX6t3UO+K5aqBQOIHw==}
