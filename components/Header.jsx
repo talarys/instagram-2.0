@@ -7,7 +7,7 @@ function Header() {
 
   return (
     // Header Container
-    <div className="h-[60px] border-b flex align-middle shadow-sm sticky top-0 z-50">
+    <div className="h-[60px] border-b flex align-middle shadow-sm sticky top-0 z-50 bg-white">
       {/* Header */}
       <div className="flex flex-auto justify-between items-center mx-20 xl:mx-auto max-w-6xl">
         {/* Left Logo */}
