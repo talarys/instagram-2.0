@@ -14,7 +14,7 @@ function Stories() {
   }, []);
 
   return (
-    <div className="flex space-x-2 p-6 bg-white mt-0 sm:mt-8 border border-gray-200 rounded-sm overflow-x-scroll scrollbar-thin max-w-[600px] mx-auto shrink-0">
+    <div className="flex space-x-2 p-6 bg-white mt-0 sm:mt-8 border border-gray-200 rounded-sm overflow-x-scroll scrollbar-thin max-w-[600px] shrink-0">
       {suggestions.map((profile) => (
         <Story key={profile.id} avatarImg={profile.avatar} name={profile.name} />
       ))}
