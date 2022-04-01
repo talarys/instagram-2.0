@@ -9,11 +9,11 @@ function Header() {
     // Header Container
     <div className="h-[60px] border-b flex align-middle shadow-sm sticky top-0 z-50 bg-white">
       {/* Header */}
-      <div className="flex flex-auto justify-between items-center mx-20 xl:mx-auto max-w-6xl">
+      <div className="flex flex-auto justify-between items-center mx-[20px] lg:mx-auto max-w-[975px]">
         {/* Left Logo */}
         <img src="/instagramLogo.svg" alt="logo" className="h-10" />
         {/* Middle input */}
-        <div className="flex h-10 items-center bg-[#efefef] rounded-lg p-2 group">
+        <div className="sm:flex h-10 items-center bg-[#efefef] rounded-lg p-2 group hidden">
           <SearchIcon className="h-5 text-gray-400" />
           <input
             className="placeholder:text-gray-400 focus:ring-0 border-none bg-transparent"
