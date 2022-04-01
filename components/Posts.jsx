@@ -6,12 +6,14 @@ const posts = [
     username: 'yuno',
     userImg: '/dummy.jpg',
     img: '/dummy.jpg',
+    caption: 'Random caption uwu',
   },
   {
     id: '124',
     username: 'yuno',
     userImg: '/dummy.jpg',
     img: '/dummy.jpg',
+    caption: 'Random caption uwu',
   },
 ];
 
