@@ -1,19 +1,21 @@
 import Posts from './Posts';
 import Stories from './Stories';
+import Suggestions from './Suggestions';
+import MiniProfile from './MiniProfile';
 
 function Feed() {
   return (
-    <div className="grid grid-cols-1 md:grid-cols-3 max-w-[975px] mx-auto ">
+    <div className="flex justify-center">
       {/* Section */}
-      <section className="md:col-span-2 sm:mx-auto">
+      <section className="">
         <Stories />
         <Posts />
       </section>
 
       {/* Section */}
-      <section>
-        {/* MiniProfile */}
-        {/* Suggestions */}
+      <section className="hidden lg:flex flex-col flex-grow max-w-xs mt-8 p-6">
+        <MiniProfile />
+        <Suggestions />
       </section>
     </div>
   );
