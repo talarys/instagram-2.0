@@ -29,8 +29,8 @@ function Header() {
         </div>
         {/* Right Icons */}
         <div className="flex space-x-3">
-          <button type="button" className="bg-[#0095F6] py-1 px-2 rounded text-white">Log In</button>
-          <button className="text-[#0095f6]" type="button">Sign Up</button>
+          <button type="button" className="bg-[#1693f2] py-1 px-2 rounded text-white">Log In</button>
+          <button className="text-[#1693f2]" type="button">Sign Up</button>
         </div>
       </div>
     </div>
