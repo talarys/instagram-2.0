@@ -44,7 +44,7 @@ function Post({
         </div>
         {/* Likes */}
         <p className="font-semibold">
-          {Math.floor((Math.random() * 20000 + 10000))}
+          {/* {Math.floor((Math.random() * 20000 + 10000))} */}
           {' '}
           likes
         </p>
